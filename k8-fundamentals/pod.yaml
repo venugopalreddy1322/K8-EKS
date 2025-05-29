@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  creationTimestamp: null
+  labels:
+    run: flaskdemo
+  name: flaskdemo
+spec:
+  containers:
+  - image: venu1322/vproject:13
+    name: flaskdemo
+    resources: {}
+  dnsPolicy: ClusterFirst
+  restartPolicy: Always
+status: {}
