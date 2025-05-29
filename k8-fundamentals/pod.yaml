@@ -7,7 +7,7 @@ metadata:
   name: flaskdemo
 spec:
   containers:
-  - image: venu1322/vproject:15
+  - image: venu1322/vproject:5
     name: flaskdemo
     resources: {}
   dnsPolicy: ClusterFirst
