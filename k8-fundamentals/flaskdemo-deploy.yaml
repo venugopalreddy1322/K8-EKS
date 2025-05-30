@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: flaskdemo
+  name: flaskdemo
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: flaskdemo
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: flaskdemo
+    spec:
+      containers:
+      - image: venu1322/vproject:5
+        name: vproject
+        ports:
+        - containerPort: 5000
+        resources: {}
+status: {}
