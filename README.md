@@ -10,3 +10,8 @@ For syntax and help:
 $ kubectl create pod -h
 ```
 
+2. create deployment:
+```bash
+ k create deploy flaskdemo --image=venu1322/vproject:5 --replicas=2 --port=5000 --dry-run=client -o yaml > flaskdemo-deploy.yaml
+
+```
