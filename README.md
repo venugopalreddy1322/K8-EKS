@@ -17,6 +17,12 @@ $ kubectl create pod -h
 ```
 3. create a service to expose the above created deployment
 ```bash
+ kubectl expose deploy flaskdemo --port=5000 --target-port=50000 --type=NodePort --dry-run=client -o yaml > svc.yaml
+
+```
+OR
+
+```bash
  kubectl expose -f flaskdemo-deploy.yaml --port=5000 --type=NodePort --dry-run=client -o yaml > svc.yaml
 
 ```
