@@ -15,3 +15,8 @@ $ kubectl create pod -h
  kubectl create deploy flaskdemo --image=venu1322/vproject:5 --replicas=2 --port=5000 --dry-run=client -o yaml > flaskdemo-deploy.yaml
 
 ```
+3. create a service to expose the above created deployment
+```bash
+ kubectl expose -f flaskdemo-deploy.yaml --port=5000 --type=NodePort --dry-run=client -o yaml > svc.yaml
+
+```
