@@ -7,9 +7,9 @@ metadata:
   name: flaskdemo
 spec:
   ports:
-  - port: 50000
+  - port: 5000
     protocol: TCP
-    targetPort: 50000
+    targetPort: 5000
     nodePort: 30009
   selector:
     app: flaskdemo
