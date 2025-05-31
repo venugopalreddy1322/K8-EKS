@@ -6,7 +6,7 @@ metadata:
   creationTimestamp: null
   name: simple-ingress
 spec:
-  #ingressClassName: default
+  ingressClassName: nginx
   rules:
   - host: flaskdemo.com
     http:
