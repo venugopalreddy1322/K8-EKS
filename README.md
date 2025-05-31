@@ -41,3 +41,5 @@ OR
  ```bash
   vi C:/Windows/System32/drivers/etc/hosts
 ```
+example: 
+172.30.130.64 flaskdemo.com
