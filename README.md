@@ -31,3 +31,8 @@ OR
 ```bash
  kubectl create ingress simple-ingress --rule="flaskdemo.com/*=svc-clusterip:5000" --class=default --annotation nginx.ingress.kubernetes.io/rewrite-target=/ --annotation nginx.ingress.kubernetes.io/ssl-redirect="false" --dry-run=client -o yaml > simple-ingress.yaml
  ```
+    Multi-path single host
+
+```bash
+ kubectl create ingress simple-ingress --rule="flaskdemo.com/app1*=svc-svc1:5000" --rule="flaskdemo.com/app2*=svc-svc2:8080" --class=default --annotation nginx.ingress.kubernetes.io/rewrite-target=/ --annotation nginx.ingress.kubernetes.io/ssl-redirect="false" --dry-run=client -o yaml > simple-ingress.yaml
+ ```
