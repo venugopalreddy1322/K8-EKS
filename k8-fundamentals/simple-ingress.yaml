@@ -18,5 +18,3 @@ spec:
               number: 5000
         path: /
         pathType: Prefix
-status:
-  loadBalancer: {}
