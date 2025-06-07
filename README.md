@@ -68,6 +68,13 @@ Example entry:
 ```
 
 ---
+## ✅ Summary
+
+This repository provides a quick reference to:
+- Generate YAML manifests using imperative `kubectl` commands.
+- Set up pods, deployments, services, and ingress for EKS.
+- Enable local testing with DNS mapping (Windows support included).
+
 -------------------------------------------------------
 # K8-EKS
 
