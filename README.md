@@ -31,6 +31,10 @@ kubectl create deploy flaskdemo --image=venu1322/vproject:5 --replicas=2 --port=
 ```
 
 ---
+### 3. Create a Service to Expose the Deployment
+```bash
+kubectl expose deploy flaskdemo --port=5000 --target-port=50000 --type=NodePort --dry-run=client -o yaml > svc.yaml
+```
 -------------------------------------------------------
 # K8-EKS
 
