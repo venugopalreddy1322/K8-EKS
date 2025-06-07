@@ -1,5 +1,29 @@
 # K8-EKS
 
+A collection of imperative `kubectl` commands to create and manage Kubernetes resources on Amazon EKS.
+
+---
+
+## 📌 Prerequisites
+Ensure you have the following before executing these commands:
+- Kubernetes CLI (`kubectl`) installed and configured.
+- Access to an EKS cluster.
+- Admin privileges (especially on Windows, for editing the hosts file).
+
+---
+
+## ⚙️ Imperative Commands
+
+### 1. Create a Pod
+Generate a Pod YAML for an Nginx container:
+
+```bash
+kubectl run nginx-pod --image=nginx --dry-run=client -o yaml > pod.yaml
+
+
+-------------------------------------------------------
+# K8-EKS
+
 ## Imperative commands:
 1. create pod:
 ```bash
