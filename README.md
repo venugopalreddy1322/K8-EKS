@@ -24,7 +24,7 @@ For syntax and help:
 ```bash
 kubectl create pod -h
 ```
-
+---
 -------------------------------------------------------
 # K8-EKS
 
