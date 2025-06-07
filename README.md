@@ -19,7 +19,11 @@ Generate a Pod YAML for an Nginx container:
 
 ```bash
 kubectl run nginx-pod --image=nginx --dry-run=client -o yaml > pod.yaml
-
+```
+For syntax and help:
+```bash
+kubectl create pod -h
+```
 
 -------------------------------------------------------
 # K8-EKS
