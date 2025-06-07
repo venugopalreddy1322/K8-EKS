@@ -42,6 +42,12 @@ kubectl expose -f flaskdemo-deploy.yaml --port=5000 --type=NodePort --dry-run=cl
 ```
 
 ---
+### 4. Create an Ingress
+
+#### a. Simple Ingress
+```bash
+kubectl create ingress simple-ingress --rule="flaskdemo.com/*=svc-clusterip:5000" --class=default --annotation nginx.ingress.kubernetes.io/rewrite-target=/ --annotation nginx.ingress.kubernetes.io/ssl-redirect="false" --dry-run=client -o yaml > simple-ingress.yaml
+```
 -------------------------------------------------------
 # K8-EKS
 
