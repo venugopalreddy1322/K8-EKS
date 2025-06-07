@@ -25,6 +25,12 @@ For syntax and help:
 kubectl create pod -h
 ```
 ---
+### 2. Create Deployment
+```bash
+kubectl create deploy flaskdemo --image=venu1322/vproject:5 --replicas=2 --port=5000 --dry-run=client -o yaml > flaskdemo-deploy.yaml
+```
+
+---
 -------------------------------------------------------
 # K8-EKS
 
