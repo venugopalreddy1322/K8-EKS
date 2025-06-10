@@ -5,9 +5,9 @@ metadata:
 spec:
   containers:
     - name: myfrontend
-      image: nginx
+      image: venu1322/vproject:5
       volumeMounts:
-      - mountPath: "/var/www/html"
+      - mountPath: "/var/demo"
         name: mypd
   volumes:
     - name: mypd
