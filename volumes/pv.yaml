@@ -11,4 +11,4 @@ spec:
   persistentVolumeReclaimPolicy: Delete
   hostPath:
     path: "/mnt/data"
-  #storageClassName: slow
+  storageClassName: local-storage
