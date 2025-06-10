@@ -26,3 +26,5 @@ Apply the Local Path Provisioner manifest:
 kubectl apply -f https://raw.githubusercontent.com/rancher/local-path-provisioner/master/deploy/local-path-storage.yaml
 
 ```
+### 2 **Create StorageClas**
+Define a StorageClass named local-path using the Local Path Provisioner
