@@ -7,4 +7,4 @@ metadata:
 provisioner: rancher.io/local-path
 #provisioner: kubernetes.io/no-provisioner
 reclaimPolicy: Delete
-volumeBindingMode: Immediate #WaitForFirstConsumer
+volumeBindingMode: WaitForFirstConsumer #Immediate
