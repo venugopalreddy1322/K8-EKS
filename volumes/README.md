@@ -28,3 +28,8 @@ kubectl apply -f https://raw.githubusercontent.com/rancher/local-path-provisione
 ```
 ### 2 **Create StorageClas**
 Define a StorageClass named local-path using the Local Path Provisioner
+check sc.yaml file
+
+### 3 **Install Local Path Provisioner**
+Use the local-path StorageClass to dynamically create a volume:
+check pvc.yaml 
