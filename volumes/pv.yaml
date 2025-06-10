@@ -9,4 +9,4 @@ spec:
   accessModes:
     - ReadWriteOnce
   persistentVolumeReclaimPolicy: Delete
-  storageClassName: slow
+  #storageClassName: slow
