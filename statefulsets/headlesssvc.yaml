@@ -1,0 +1,23 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: null
+  labels:
+    app: mongo
+    apps.kubernetes.io/pod-index: "0"
+    controller-revision-hash: mongo-6dc69674c7
+    statefulset.kubernetes.io/pod-name: mongo-0
+  name: mongo-headlessvc
+spec:
+  ports:
+  - port: 27017
+    protocol: TCP
+    targetPort: 27017
+  selector:
+    app: mongo
+    apps.kubernetes.io/pod-index: "0"
+    controller-revision-hash: mongo-6dc69674c7
+    statefulset.kubernetes.io/pod-name: mongo-0
+  type: ClusterIp
+status:
+  loadBalancer: {}
