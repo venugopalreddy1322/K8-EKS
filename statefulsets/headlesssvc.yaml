@@ -9,4 +9,4 @@ spec:
     targetPort: 27017
   selector:
     app: mongo
-  ClusterIP: None # Becomes Headless service
+  clusterIP: None # Becomes Headless service
