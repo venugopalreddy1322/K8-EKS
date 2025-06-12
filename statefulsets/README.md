@@ -5,6 +5,8 @@ mongo-0   1/1     Running   0          17m
 mongo-1   1/1     Running   0          14m
 mongo-2   1/1     Running   0          16m
 
+Exec into mongo pod and create replica by using following commands:
+
 $ k exec -it mongo-0 -- mongosh
 test> rs.initiate(
 ...         {
