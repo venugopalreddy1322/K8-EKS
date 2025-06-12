@@ -2,6 +2,11 @@ apiVersion: v1
 data:
   password: password
   user: admin
+  mongodb.conf: |
+    storage:
+      dbPath: /data/db
+    replication:
+        replSetName: "rs0"
 kind: ConfigMap
 metadata:
   name: demo-config
