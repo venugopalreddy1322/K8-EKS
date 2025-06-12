@@ -9,4 +9,4 @@ data:
         replSetName: "rs0"
 kind: ConfigMap
 metadata:
-  name: demo-config
+  name: mongodb-config
