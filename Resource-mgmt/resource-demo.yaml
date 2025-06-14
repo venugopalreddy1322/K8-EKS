@@ -11,7 +11,7 @@ spec:
     - stress
     args:
     - --cpu
-    - "1"
+    - "2"
     - --vm
     - "1"
     - --vm-bytes
@@ -20,7 +20,9 @@ spec:
     - "1"
     image: polinux/stress
     name: resource-demo
-    resources: {}
+    resources: 
+      requests:
+        cpu: "1"
   dnsPolicy: ClusterFirst
   restartPolicy: Always
 status: {}
