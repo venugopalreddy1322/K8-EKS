@@ -9,7 +9,7 @@ spec:
   containers:
   - command:
     - stress
-  - args:
+    args:
     - --cpu=1
     - --vm=1
     - --vm-bytes=1G
