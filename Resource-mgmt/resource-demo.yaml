@@ -23,6 +23,7 @@ spec:
     resources: 
       requests:
         cpu: "1"
+        memory: "20Gi"
   dnsPolicy: ClusterFirst
   restartPolicy: Always
 status: {}
