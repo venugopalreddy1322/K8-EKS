@@ -144,7 +144,7 @@ spec:
           httpGet:
             path: /livez
             port: http
-            scheme: HTTPS
+            scheme: HTTP
           periodSeconds: 10
         name: metrics-server
         ports:
