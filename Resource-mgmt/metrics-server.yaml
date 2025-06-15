@@ -149,7 +149,7 @@ spec:
         name: metrics-server
         ports:
         - containerPort: 10250
-          name: https
+          name: http
           protocol: TCP
         readinessProbe:
           failureThreshold: 3
