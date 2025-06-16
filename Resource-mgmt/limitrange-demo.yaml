@@ -9,8 +9,8 @@ spec:
         cpu: 50m
         memory: 50Mi
       max: 
-        cpu: "2"
-        memory: 2Gi
+        cpu: "3"
+        memory: 3Gi
     - type: Container
       defaultRequest:
         cpu: 100m
