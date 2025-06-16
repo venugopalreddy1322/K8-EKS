@@ -7,7 +7,7 @@ spec:
     - type: Pod
       min:
         cpu: 50m
-        memory: 25Mi
+        memory: 26Mi
       max: 
         cpu: "2"
         memory: 2Gi
@@ -20,13 +20,13 @@ spec:
         memory: 100Mi
       min:
         cpu: 50m
-        memory: 25Mi
+        memory: 26Mi
       max:
         cpu: "1"
         memory: 1Gi
       maxLimitRequestRatio:
         cpu: "3"
-        memory: 40Mi
+        memory: 39Mi
     - type: PersistentVolumeClaim
       min: 
         storage: 1Gi
