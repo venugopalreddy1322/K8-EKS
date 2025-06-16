@@ -15,7 +15,7 @@ spec:
     - --vm
     - "1"
     - --vm-bytes
-    - 1G
+    - 2G
     - --vm-hang
     - "1"
     image: polinux/stress
