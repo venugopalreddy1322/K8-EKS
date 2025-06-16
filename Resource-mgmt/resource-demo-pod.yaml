@@ -22,7 +22,7 @@ spec:
     name: resource-demo
     resources: 
       requests:
-        cpu: "1"
+        cpu: "10m"
         memory: "500Mi"
       limits:
         cpu: "2"
