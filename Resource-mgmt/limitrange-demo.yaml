@@ -7,20 +7,20 @@ spec:
     - type: Pod
       min:
         cpu: 50m
-        memory: 26Mi
+        memory: 50Mi
       max: 
         cpu: "2"
         memory: 2Gi
     - type: Container
       defaultRequest:
         cpu: 100m
-        memory: 26Mi
+        memory: 50Mi
       default: 
         cpu: 200m
         memory: 100Mi
       min:
         cpu: 50m
-        memory: 26Mi
+        memory: 50Mi
       max:
         cpu: "1"
         memory: 1Gi
