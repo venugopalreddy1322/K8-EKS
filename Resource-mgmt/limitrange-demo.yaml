@@ -26,7 +26,7 @@ spec:
         memory: 1Gi
       maxLimitRequestRatio:
         cpu: "3"
-        memory: 27Mi
+        memory: 26Mi
     - type: PersistentVolumeClaim
       min: 
         storage: 1Gi
