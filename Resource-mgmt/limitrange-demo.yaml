@@ -7,7 +7,7 @@ spec:
     - type: Pod
       min:
         cpu: 50m
-        memory: 5Mi
+        memory: 25Mi
       max: 
         cpu: "2"
         memory: 2Gi
@@ -20,7 +20,7 @@ spec:
         memory: 100Mi
       min:
         cpu: 50m
-        memory: 5Mi
+        memory: 25Mi
       max:
         cpu: "1"
         memory: 1Gi
