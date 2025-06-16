@@ -25,8 +25,8 @@ spec:
         cpu: "1"
         memory: "500Mi"
       limits:
-        cpu: "1"
-        memory: "3Gi"
+        cpu: "2"
+        memory: "2Gi"
   dnsPolicy: ClusterFirst
   restartPolicy: Always
 status: {}
