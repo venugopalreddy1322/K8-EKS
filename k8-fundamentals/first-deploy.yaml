@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: first-deploy
+  name: first-deploy
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: first-deploy
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: first-deploy
+    spec:
+      containers:
+      - image: venu1322/vproject:5
+        name: vproject
+        resources: {}
