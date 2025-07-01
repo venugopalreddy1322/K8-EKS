@@ -17,6 +17,6 @@ spec:
         app: first-deploy
     spec:
       containers:
-      - image: venu1322/vproject:5
+      - image: venu1322/vproject:11
         name: vproject
         resources: {}
