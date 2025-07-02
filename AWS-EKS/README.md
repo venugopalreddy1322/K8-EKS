@@ -1,5 +1,18 @@
 ## Practical demos to demonstrate AWS EKS
 
+Installation of eksctl
+Prerequisites
+1. AWS CLI installed and configured
+2. kubectl installed
+3. Install eksctl using chocolatey for windows
+```bash
+choco install -y eksctl
+```
+Update eksctl:
+```bash
+choco upgrade -y eksctl
+```
+
 eksctl:
 . CLI tool for creating clusters on EKS
 . Abstarcts lots of stuff - VPC, Subnet, Sec.Group etc. using CloudFormation
