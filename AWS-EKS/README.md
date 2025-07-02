@@ -6,4 +6,5 @@ eksctl:
 
 eksctl commands:
 ```bash
-eksctl create cluster
+eksctl create cluster --name <name> --version 1.32 --node-type t3.micro --nodes 2
+```
