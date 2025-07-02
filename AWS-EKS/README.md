@@ -5,4 +5,5 @@ eksctl:
 . Abstarcts lots of stuff - VPC, Subnet, Sec.Group etc. using CloudFormation
 
 eksctl commands:
-
+```bash
+eksctl create cluster
