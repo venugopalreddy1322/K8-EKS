@@ -18,3 +18,4 @@ This command create EKS cluster with managed node group
 ```bash
 eksctl create cluster <name> --fargate
 ```
+This command creates EKS cluster with Fargate Profile
