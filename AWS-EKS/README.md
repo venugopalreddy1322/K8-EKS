@@ -39,7 +39,8 @@ Create cluster using yaml manifest
 ```bash
 eksctl create cluster --config-file=<file-name>
 ```
-
+This will create a EKS cluster 
+ 
 Create and add nodegroups to cluster using yaml file
 ```bash
 eksctl create nodegroup --config-file=eksctl-create-ng.yaml
