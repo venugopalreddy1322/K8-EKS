@@ -34,3 +34,5 @@ eksctl create cluster <name> --fargate
 ```
 This command creates EKS cluster with Fargate Profile
 
+## Declarative way
+Create and add nodegroups to cluster using yaml file
