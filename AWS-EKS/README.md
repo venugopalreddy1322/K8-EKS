@@ -36,3 +36,7 @@ This command creates EKS cluster with Fargate Profile
 
 ## Declarative way
 Create and add nodegroups to cluster using yaml file
+```bash
+eksctl create nodegroup --config-file=eksctl-create-ng.yaml
+```
+This will create nodegroups specified in the yaml  file 'eksctl-create-ng.yaml'
