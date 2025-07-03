@@ -4,6 +4,7 @@ Installation of eksctl
 Prerequisites
 1. AWS CLI installed and configured
 2. kubectl installed
+After
 3. Install eksctl using chocolatey for windows
 ```bash
 choco install -y eksctl
@@ -32,3 +33,4 @@ This command create EKS cluster with managed node group
 eksctl create cluster <name> --fargate
 ```
 This command creates EKS cluster with Fargate Profile
+
