@@ -51,3 +51,8 @@ This will create nodegroups specified in the yaml  file 'eksctl-create-ng.yaml'
 eksctl delete cluster --name=config-file --region us-west-2
 ```
 to delete a cluster in specific region 
+
+```bash
+ eksctl delete cluster --name=config-file --region=us-west-2 --disable-nodegroup-eviction
+```
+Ignore nodegroup eviction while deleting cluster
