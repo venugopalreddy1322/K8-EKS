@@ -2,10 +2,10 @@ apiVersion: eksctl.io/v1alpha5
 kind: ClusterConfig
 
 metadata:
-  name: eksctl-test
+  name: config-file
   region: us-west-2
 
 nodeGroups: 
   - name: ng-default
     instanceType: t3.micro
-    desiredCapacity: 2
+    desiredCapacity: 0

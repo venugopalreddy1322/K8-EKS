@@ -46,3 +46,8 @@ Create and add nodegroups to cluster using yaml file
 eksctl create nodegroup --config-file=eksctl-create-ng.yaml
 ```
 This will create nodegroups specified in the yaml  file 'eksctl-create-ng.yaml'
+
+```bash
+eksctl delete cluster --name=config-file --region us-west-2
+```
+to delete a cluster in specific region 
